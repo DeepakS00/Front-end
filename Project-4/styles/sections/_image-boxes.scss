@@ -1,0 +1,28 @@
+#boxes {
+  @include flex-box();
+  background: radial-gradient(rgba(24, 9, 9, 0.698) , rgba(5, 61, 87, 0.438)), url(../images/about.jpg) no-repeat;
+  flex-wrap: wrap;
+  height: 100vh;
+
+  .box {
+    flex: 30%;
+    padding: 10px;
+    text-align: center;
+
+    img {
+      border-radius: 10px;
+      height: 150px;
+      width: 200px;
+    }
+  }
+
+  .owl {
+    object-fit: cover;
+  }
+
+  @media (max-width: 800px) {
+    .box {
+      flex: 100%;
+    }
+  }
+}

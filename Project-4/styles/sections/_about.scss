@@ -1,0 +1,18 @@
+#about {
+  @include flex-box();
+  background: linear-gradient(to right, rgba(24, 9, 9, 0.698) , rgba(5, 61, 87, 0.438));
+  height: 100vh;
+  padding: 0 30px;
+
+  img {
+    height: 540px;
+    width: 430px;
+  }
+  .about-text {
+    text-align: center;
+    p {
+      text-align: justify;
+      padding-top: 10px;
+    }
+  }
+}

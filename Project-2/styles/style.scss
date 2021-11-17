@@ -1,0 +1,93 @@
+@import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+body {
+  background-color: $color-background;
+  color: $color-text;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: $font-head;
+  font-size: 50px;
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.nav {
+  background-color: $color-background;
+  border: 1px groove #333;
+  box-sizing: border-box;
+  margin: 10px 0 20px 0;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;  
+    li {
+      display: inline-block;
+      font-family: $font-links;
+      font-size: 28px;
+      a {
+        display: block;
+        color: $color-text;
+        text-align: center;
+        padding: 5px 20px 5px 20px ;
+        text-decoration: none;
+        
+        &:hover {
+          background-color: $color-text;
+          color: $color-background;
+        }
+      }
+    }
+  }
+}
+
+@mixin text-content {
+  box-sizing: border-box;
+  text-align: justify;
+  font-family: $font-body;
+  font-size: 18px;
+  p {
+    padding-left: 10px;
+  }
+}
+
+.home {
+  float: left
+}
+
+.about {
+  @include text-content();
+  padding-left: 10px;
+  padding-right: 50px;
+  border-right: 1px solid #333;
+  float: left;
+  width: 60%;
+  h2 {
+    text-decoration: underline;
+    padding-left: 10px
+  }
+}
+
+.side {
+  @include text-content();
+  float: right;
+  padding: 23px 20px 0px 20px;
+  width: 40%;
+  font-size: 17px;
+}
+
+.image-box {
+  img {
+    position: relative;
+    left: 20%;
+    height: 250px;
+    width: 300px;
+  }
+}

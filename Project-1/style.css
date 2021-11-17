@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  background-image: url(./images/monn3.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#name {
+  color: rgb(92, 7, 7);
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Fruktur", cursive;
+}
+
+.about {
+  font-family: "Comfortaa", cursive;
+  font-size: medium;
+  margin-left: 1rem;
+  background-color: rgba(255, 229, 228, 0.808);
+  border: 2px solid rgb(47, 90, 107);
+}
+
+.image {
+  height: 250px;
+  width: 250px;
+}
+
+.skills {
+  border-collapse: collapse;
+  border: 2px solid rgb(47, 90, 107);
+  margin: 20px 1rem;
+  font-family: "Comfortaa", cursive;
+}
+
+.skills th {
+  background-color: rgba(255, 244, 196, 0.808);
+  border: 1px solid rgb(54, 75, 114);
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.skills tr {
+  font-size: 0.9rem;
+  background-color: rgba(198, 221, 235, 0.76);
+  border: 1px solid rgb(54, 75, 114);
+  color: #000000;
+}
+
+a:link {
+  color: rgb(183, 234, 236);
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(233, 66, 66);
+  border: 1px solid #000000;
+  border-radius: 2px;
+  background-color: #fff;
+  padding: 1px;
+}
+
+.contact {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid rgb(54, 75, 114);
+  padding: 1rem;
+  margin-left: 1rem;
+  background: radial-gradient(circle,
+    rgba(198, 221, 235, 0.76),
+    rgba(255, 235, 234, 0.808)
+  );;
+  font-family: "Comfortaa", cursive;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  width: 60%;
+  height: 3rem;
+}
+
+.contact input[type="text"]:focus,
+.contact input[type="email"]:focus {
+  box-shadow: 0 0 5px rgb(231, 236, 160);
+  padding: 3%;
+  border: 2px solid rgb(231, 236, 160);
+}
+
+.contact input[type="submit"],
+.contact input[type="reset"] {
+  background-color: transparent;
+  border-radius: 5px;
+  width: 20%;
+  padding: 5px;
+}
+
+.contact input[type="submit"]:hover,
+.contact input[type="reset"]:hover {
+  background-color: rgb(255, 219, 134);
+  border-radius: 5px;
+}
+
+.monster {
+  height: 50px;
+  width: 50px;
+}
+
+.contact > img {
+  height: 150px;
+  width: 150px;
+  float: right;
+}

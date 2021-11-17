@@ -1,0 +1,12 @@
+// Subscribe
+#subscribe {
+  @include clr-font($color-header, $white);
+  @include flex-box(space-evenly);
+  flex-wrap: wrap;
+  padding: 15px;
+  input[type="email"] {
+    height: 45px;
+    padding: 4px;
+    width: 250px;
+  }
+}

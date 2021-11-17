@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+#header {
+  background-color: #03120E;
+  border-bottom: 1px solid #8AB0AB;
+  color: #8AB0AB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header .image {
+  background-image: url(../images/it.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 10px;
+}
+
+#header .container {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding: 20px 0 20px 50px;
+}
+
+#header .container h1 {
+  font-family: "Comforter", cursive;
+  font-size: 50px;
+  margin: 0;
+  text-decoration: underline;
+}
+
+#header .container p {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+
+#navbar {
+  background-color: #8AB0AB;
+  border: 1px solid #333;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+#navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#navbar li {
+  border-right: 1px dashed #03120E;
+  font-family: "Cookie", cursive;
+  font-size: 25px;
+}
+
+#navbar li a {
+  color: #03120E;
+  padding: 10px 135px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #03120E;
+  color: #8AB0AB;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Cookie", cursive;
+  font-size: 25px;
+}
+
+.content .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .menu .main-menu {
+  border: 1px solid #03120E;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content .menu .main-menu h3 {
+  margin: 0 0 20px 0;
+}
+
+.content .menu .main-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.content .menu .block {
+  border: 1px solid #03120E;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content .menu .block h3 {
+  margin: 0 0 20px 0;
+}
+
+.content .menu .block h5 {
+  margin: 20px 0;
+}
+
+.content .menu .block p {
+  margin: 10px 0;
+}
+
+.content .others p {
+  margin: 10px 0;
+}
+
+.content .others .gallery {
+  margin: 10px;
+  padding: 10px;
+}
+
+.content .others .gallery h3 {
+  border-bottom: 1px solid #03120E;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.content .others .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.content .others .services .read-more {
+  background-color: #03120E;
+  border-radius: 8px;
+  color: #8AB0AB;
+  font: 20px "Cookie", cursive;
+  padding: 5px 10px;
+}
+
+.content .others .services h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.content .others .services .subscription {
+  border-right: 1px dashed #03120E;
+  padding-right: 20px;
+}
+
+.content .others .services .other-services {
+  padding-left: 30px;
+}
+
+#main-footer {
+  background-color: #03120E;
+  color: #8AB0AB;
+  font: 30px "Cookie", cursive;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#main-footer p {
+  margin: 0;
+}
+
+body {
+  background-color: #8AB0AB;
+  color: #03120E;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */

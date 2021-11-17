@@ -1,0 +1,11 @@
+#main-footer {
+  p {
+    margin: 0;
+  }
+
+  background-color: $color-header;
+  color: $color-background;
+  font: 30px $font-links;
+  padding: 10px 0;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+footer {
+  @include clr-font($black, $color-background);
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}

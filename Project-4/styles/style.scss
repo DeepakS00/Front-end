@@ -1,0 +1,17 @@
+// Base
+@import "base/mixins";
+@import "base/variables";
+
+// Sections
+@import "sections/about";
+@import "sections/common";
+@import "sections/footer";
+@import "sections/header";
+@import "sections/image-boxes";
+@import "sections/showcase";
+@import "sections/subscribe";
+
+// Google-fonts
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");

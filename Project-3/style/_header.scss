@@ -1,0 +1,30 @@
+#header {
+  background-color: $color-header;
+  border-bottom: 1px solid $color-background;
+  color: $color-background;
+  display: flex;
+  .image {
+    background-image: url(../images/it.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    flex: 1;
+    margin: 10px;
+  }
+  .container {
+    flex: 2;
+    padding: 20px 0 20px 50px;
+    
+    h1 {
+      font-family: $font-head;
+      font-size: 50px;
+      margin: 0;
+      text-decoration: underline;
+    }
+
+    p {
+      font-family: $font-body;
+      font-size: 20px;
+    }
+  }
+}
