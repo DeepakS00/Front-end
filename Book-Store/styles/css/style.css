@@ -1,0 +1,22 @@
+.card-img-top {
+  height: 220px;
+  width: 238px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  width: 15rem;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5, p, hr {
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=style.css.map */
